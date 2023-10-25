@@ -14,7 +14,7 @@ class BasicFlowExampleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_basic_flow_example)
         CoroutineScope(Dispatchers.Main).launch {
             getUserNames().forEach { i ->
-                Log.d("TAG", i)
+                Log.d(TAG, i)
             }
         }
     }

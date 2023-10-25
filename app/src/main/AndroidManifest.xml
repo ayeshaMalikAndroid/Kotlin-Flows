@@ -13,6 +13,20 @@
         android:theme="@style/Theme.FlowsApplication"
         tools:targetApi="31">
         <activity
+            android:name=".FlowOperatorActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FlowActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ChannelActivity"
             android:exported="false">
             <meta-data
